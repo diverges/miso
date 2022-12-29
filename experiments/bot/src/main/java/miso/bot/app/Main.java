@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
         // TODO: Load from config
-        String token = "MzUwMTAyNTAzMDU4MTc4MDU5.WZ44XQ.uTHWMa_hkMvTJ_SyGEDM6BEkhys";
+        String token = "";
 
         Batcher<MessageCreateEvent> batcher = new Batcher<>();
         BatchProcessor<MessageCreateEvent> processor = new MessageCreateEventProcessor(batcher);
